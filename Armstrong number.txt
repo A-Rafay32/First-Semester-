@@ -1,0 +1,23 @@
+def armstrong(a,b,c):
+
+    
+    
+  d=f'{a}{b}{c}'
+    
+  armstrong=a**3 + b**3 + c**3
+    
+  if str(armstrong)==d:
+      
+      print(f'It is an armstrong number\n{d}={armstrong}') 
+      else:
+      
+      print(f'It is not an armstrong number\n{d}!={armstrong}')
+    
+
+x=int(input('a:'))
+
+y=int(input('b:'))
+
+z=int(input('c:'))
+
+armstrong(x,y,z)
